@@ -7,6 +7,7 @@ private:
 	bool mailingList;
 public:
 	CustomerData(); //default constructor
+	//overloaded constructor
 	CustomerData(int c, bool m, std::string f, std::string l, std::string a, std::string ci, std::string s, std::string z, std::string p);
 	
 	//setter and getters
@@ -15,6 +16,8 @@ public:
 
 	int getcustomerNumber();
 	bool getmailingList();
+
+	//returns a string for true or false based on mailingList var
 	std::string printMailList();
 };
 

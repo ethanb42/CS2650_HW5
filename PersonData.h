@@ -10,7 +10,7 @@ public:
 	PersonData(); //default constructor
 	PersonData(std::string f, std::string l, std::string a, std::string c, std::string s, std::string z, std::string p );
 
-	//getter and setters
+	//setter functions
 	void setfirstName(std::string f);
 	void setlastName(std::string l);
 	void setAddress(std::string a);
@@ -19,6 +19,7 @@ public:
 	void setZip(std::string z);
 	void setPhone(std::string p);
 
+	//getter functions
 	std::string getfirstName();
 	std::string getlastName();
 	std::string getAddress();
