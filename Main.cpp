@@ -1,5 +1,5 @@
 //the main for homework 5
-/*
+
 #include "CustomerData.h"
 #include "PreferredCustomer.h"
 #include <iostream>
@@ -66,4 +66,3 @@ int main() {
 
 }
 
-*/
